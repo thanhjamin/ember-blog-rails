@@ -7,3 +7,9 @@ App.CommentsNewController=Ember.ObjectController.extend({
     this.get('target').transitionTo('post.index');
   }
 });
+
+
+
+
+
+
