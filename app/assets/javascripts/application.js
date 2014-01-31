@@ -12,5 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require handlebars
+//= require ember-latest
+//= require ember-data-latest
+//= require_self
+//= require blog
+
+window.App = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});
