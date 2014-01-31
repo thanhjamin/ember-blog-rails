@@ -16,7 +16,7 @@
 //= require ember-latest
 //= require ember-data-latest
 //= require_self
-//= require blog
+//= require ember-blog
 
 window.App = Ember.Application.create({
   LOG_TRANSITIONS: true
